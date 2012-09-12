@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  { font: 14px/20px Arial,Helvetica,Sans-serif; color: #555; background-color: #FFF; }
+
+h1, h2, h3, h4, h5, h6  { margin: 2px; font-family:Georgia, serif; color: #222; font-weight:normal; padding-bottom: 5px;}
+h1  {font-size: 24px; } h2  {font-size: 22px;} h3  {font-size: 16px;} h4  {font-size: 14px;} h5  {font-size: 13px;} h6  {font-size: 12px;}
+
+p {
+	margin: 5px; font:16px/24px Georgia, serif; 
+	line-height: 5px;
+	}
+
+hr { background-color: #e6e6e6;	border:0; height: 1px; margin-bottom: 20px; }
+
+input, textarea { padding: 7px 0 7px 7px; border-color: #ccc #efefef #efefef #ccc; border-width:1px; border-style:solid;}
+
+/* 1.2 Hyperlinks */
+
+a:link, a:visited  { color: #3088ff; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+h1 a:link, h1 a:visited, h2 a:link, h2 a:visited, h3 a:link, h3 a:visited,
+h4 a:link, h4 a:visited, h5 a:link, h5 a:visited, h6 a:link, h6 a:visited  { text-decoration: none; }
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-decoration: underline;}
+
+
+#singly-auth-wrapper{
+
+}
+
+#singly-auth-wrapper ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+#singly-auth-wrapper ul li{
+display: inline;
+padding: 2px;
+text-align: center;
+}
